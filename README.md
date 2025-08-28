@@ -1,31 +1,54 @@
-# ETH Daddy 
+Go-Daddy Crypto is a decentralized web application (dApp) built with Solidity, React, and Ethereum.
+It is a clone of the popular GoDaddy
+ website, but instead of using real money, users can buy domains using Ethereum.
 
-## Technology Stack & Tools
+All transactions are handled securely via the MetaMask wallet, and every purchase requires on-chain verification.
 
-- Solidity (Writing Smart Contracts & Tests)
-- Javascript (React & Testing)
-- [Hardhat](https://hardhat.org/) (Development Framework)
-- [Ethers.js](https://docs.ethers.io/v5/) (Blockchain Interaction)
-- [React.js](https://reactjs.org/) (Frontend Framework)
 
-## Requirements For Initial Setup
-- Install [NodeJS](https://nodejs.org/en/)
 
-## Setting Up
-### 1. Clone/Download the Repository
+ Features
 
-### 2. Install Dependencies:
-`$ npm install`
+ -> Blockchain-Powered: Buy domains using Ethereum.
 
-### 3. Run tests
-`$ npx hardhat test`
+ -> MetaMask Integration: Secure wallet-based authentication & payments.
 
-### 4. Start Hardhat node
-`$ npx hardhat node`
+ -> Smart Contracts: Deployed using Solidity & Hardhat.
 
-### 5. Run deployment script
-In a separate terminal execute:
-`$ npx hardhat run ./scripts/deploy.js --network localhost`
+ -> React Frontend: Modern and responsive UI for seamless user experience.
 
-### 7. Start frontend
-`$ npm run start`
+ Hardhat Development Environment: Local testing and deployment support.
+
+Tech Stack
+
+-> Frontend: React, JavaScript
+
+-> Blockchain: Ethereum, Solidity
+
+-> Wallet: MetaMask
+
+-> Framework: Hardhat
+
+
+
+Setting Up
+
+1. Install Dependencies:
+` $ npm install `
+
+2. Run tests
+` $ npx hardhat test `
+
+3. Start Hardhat node
+` $ npx hardhat node `
+
+4. Run deployment script
+In a separate terminal execute: ` $ npx hardhat run ./scripts/deploy.js --network localhost `
+
+5. Start frontend
+` $ npm run start `
+
+
+
+Preview
+<img width="1897" height="866" alt="BC_Preview" src="https://github.com/user-attachments/assets/da173e62-3b96-4c88-b4de-101c92ba6eda" />
+
